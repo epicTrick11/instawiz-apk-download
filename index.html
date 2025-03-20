@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instawiz APK Upload and Download</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Instawiz APK Upload and Download</h1>
+
+    <!-- Upload Form -->
+    <form id="uploadForm">
+      <label for="apkFile">Choose an APK file for Instawiz:</label>
+      <input type="file" id="apkFile" name="apkFile" accept=".apk" required>
+      <button type="submit">Upload Instawiz APK</button>
+    </form>
+
+    <!-- Display Available APKs -->
+    <div class="apk-list">
+      <h2>Available APKs for Download</h2>
+      <ul id="apkFilesList">
+        <!-- List of uploaded APK files will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
